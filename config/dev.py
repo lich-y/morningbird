@@ -26,13 +26,13 @@ DEBUG = True
 # SQL: CREATE DATABASE `framework_py` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; # noqa: E501
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': APP_CODE,
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    },
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': '1197739593_database',  # 数据库名
+            'USER': 'root',  # 数据库用户
+            'PASSWORD': 'Lcy5655648-',  # 数据库密码
+            'HOST': '127.0.0.1',  # 数据库主机
+            'PORT': '3306',  # 数据库端口
+        },
 }
 
 # 多人开发时，无法共享的本地配置可以放到新建的 local_settings.py 文件中

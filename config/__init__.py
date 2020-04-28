@@ -27,14 +27,14 @@ def get_env_or_raise(key):
 
 # 这些变量将由平台通过环境变量提供给应用，本地开发时需手动配置
 # 应用 ID
-APP_CODE = ''
+APP_CODE = 'yanglearn'
 # 应用用于调用云 API 的 Secret
-SECRET_KEY = ''
+SECRET_KEY = 'c30d09b9-dc41-4d49-b41c-8caa4def89be'
 
 # SaaS运行版本，如非必要请勿修改
 RUN_VER = 'open'
 # 蓝鲸SaaS平台URL，例如 http://paas.bking.com
-BK_URL = None
+BK_URL = "https://paas-class.bktencent.com:443"
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(
